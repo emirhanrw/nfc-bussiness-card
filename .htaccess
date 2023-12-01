@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteRule login$ login.php [L]
+RewriteRule profil$ index.php [L]
+RewriteRule adminapp$ appadmin/index.php [L]
+RewriteRule appadmin/adminlogin$ appadmin/adminlogin.php [L]

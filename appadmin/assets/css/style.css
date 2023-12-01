@@ -1,0 +1,11 @@
+.copyLink{
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.copyLink i{
+    font-size: 50px;
+}
