@@ -54,7 +54,7 @@
             if($stmt->execute($data)){
                 $msg = 'Kayıt Başarıyla Oluşturuldu!';
                 $alert = 'success';
-                $link = 'http://localhost/proje/login?idkey='.$idkey;
+                $link = 'http://localhost/nfc-bussiness-card/login?idkey='.$idkey;
             }else{
                 $msg = 'Kayıt yapılırlen hata oluştu...';
                 $alert = 'danger';
